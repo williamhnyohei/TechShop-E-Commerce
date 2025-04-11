@@ -1,74 +1,36 @@
-# TechShop - E-commerce de Produtos Tecnológicos
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Website](https://img.shields.io/badge/website-live-green)
+## Getting Started
 
-**TechShop** é uma plataforma de e-commerce de tecnologia, permitindo que os usuários naveguem por categorias como **smartphones**, **notebooks**, **componentes de hardware**, **acessórios** e mais. O projeto possui uma interface moderna com filtros de busca eficientes, renderização dinâmica de produtos e layout otimizado para SEO e Web Vitals.
+First, run the development server:
 
-## Tecnologias Utilizadas
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **React**: Biblioteca para construção da interface de usuário.
-- **Next.js**: Framework para renderização do lado do servidor (SSR) e otimização de SEO.
-- **Tailwind CSS**: Framework de utilitários CSS para estilização e design responsivo.
-- **Tailwind UI**: Componentes prontos para UI com Tailwind CSS.
-- **TypeScript**: Superset do JavaScript para garantir tipagem estática e manutenção de código.
-- **SEO**: Implementação de **meta tags** dinâmicas e boas práticas para otimização de motores de busca.
-- **Web Vitals**: Monitoramento e otimização de performance do site.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Funcionalidades
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- **Navegação por Categorias**: Usuários podem explorar produtos por categorias como smartphones, notebooks, acessórios, etc.
-- **Filtros de Busca**: Filtros para busca eficiente por preço, categoria, avaliações e mais.
-- **Página de Produto**: Exibição detalhada de cada produto, com descrição, imagens e especificações.
-- **Carrinho de Compras**: Funcionalidade para adicionar e remover produtos do carrinho, calculando o preço total.
-- **Responsividade**: Design otimizado para funcionar em dispositivos móveis, tablets e desktops.
-- **Otimização para SEO**: Estrutura de URLs amigáveis e uso de meta tags dinâmicas para melhorar a indexação.
-- **Web Vitals**: Foco em performance, utilizando **SSR** (Server-Side Rendering) e carregamento dinâmico.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Como Rodar o Projeto
+## Learn More
 
-1. **Clonar o Repositório**  
-   Clone o repositório com o comando:
+To learn more about Next.js, take a look at the following resources:
 
-   `git clone https://github.com/seu-usuario/techshop.git`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-   Navegue até o diretório do projeto:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-   `cd techshop`
+## Deploy on Vercel
 
-2. **Instalar Dependências**  
-   Certifique-se de ter o [Node.js](https://nodejs.org/) instalado. Em seguida, instale as dependências com o comando:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-   `npm install`
-
-3. **Rodar o Projeto Localmente**  
-   Após a instalação, rode o servidor de desenvolvimento com:
-
-   `npm run dev`
-
-   Acesse o projeto no seu navegador em `http://localhost:3000`.
-
-## Como Contribuir
-
-1. Fork o repositório.
-2. Crie uma branch para suas alterações:
-   
-   `git checkout -b minha-feature`
-   
-3. Faça o commit das suas alterações:
-   
-   `git commit -am 'Adiciona nova feature'`
-   
-4. Envie suas alterações para o repositório remoto:
-   
-   `git push origin minha-feature`
-   
-5. Abra um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-### **Author**:  
-[William H N Yohei](https://github.com/williamhnyohei)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
